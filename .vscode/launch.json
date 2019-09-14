@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AlunoPrincipal",
+            "request": "launch",
+            "mainClass": "AlunoPrincipal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EmpresaPrincipal",
+            "request": "launch",
+            "mainClass": "EmpresaPrincipal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ColaboradorPrincipal",
+            "request": "launch",
+            "mainClass": "ColaboradorPrincipal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ProdutoPrincipal",
+            "request": "launch",
+            "mainClass": "ProdutoPrincipal"
+        }
+    ]
+}

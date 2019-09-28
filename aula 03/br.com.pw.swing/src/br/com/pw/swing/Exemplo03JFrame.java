@@ -43,6 +43,11 @@ public class Exemplo03JFrame extends javax.swing.JFrame {
 
         jComboBoxJogos.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "No Main' s Sky", "FreeFire", "Anthem" }));
         jComboBoxJogos.setSelectedIndex(-1);
+        jComboBoxJogos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBoxJogosActionPerformed(evt);
+            }
+        });
 
         jButtonLimpar.setText("Limpar");
         jButtonLimpar.addActionListener(new java.awt.event.ActionListener() {
@@ -126,6 +131,10 @@ public class Exemplo03JFrame extends javax.swing.JFrame {
     private void jButtonLimparActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonLimparActionPerformed
         jComboBoxJogos.setSelectedIndex(-1);
     }//GEN-LAST:event_jButtonLimparActionPerformed
+
+    private void jComboBoxJogosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxJogosActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBoxJogosActionPerformed
 
     /**
      * @param args the command line arguments
